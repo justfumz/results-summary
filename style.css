@@ -1,0 +1,138 @@
+.red{color:hsl(0, 100%, 67%);}
+.orangeYellow{color:hsl(39, 100%, 56%);}
+.greenTeal{color:hsl(166, 100%, 37%);}
+.cobaltBlue{color:hsl(234, 85%, 45%);}
+.lightSlateBlue{color: hsl(252, 100%, 67%);}
+.lightRoyalBlue{color: hsl(241, 81%, 54%);}
+.violetBlue{color: hsla(256, 72%, 46%, 1);}
+.persianBlue{color: hsla(241, 72%, 46%, 0)}
+/* Neutral colors */
+.white{color: hsl(0, 0%, 100%);}
+.paleBlue{color:hsl(221, 100%, 96%);}
+.lightLavender{color: hsla(0, 0%, 0%, 0.3)};
+.darkGrayBlue{color: hsl(224, 30%, 27%);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#container {
+    max-width: 375px;
+    min-height: 100vh;
+    margin: 0 auto;
+    border: 0.1px solid hsla(0, 0%, 0%, 0.3);
+    background-color: white;
+
+}
+
+.top{
+    margin: 0;
+    background-color: hsl(241, 81%, 54%);
+    background-image: linear-gradient(hsla(252, 100%, 67%, 1), hsl(241, 81%, 54%));
+    border-radius: 0 0 25px 25px;
+    padding: 15px 40px 40px 40px;
+    color: hsla(0, 0%, 100%, 0.5);
+    text-align: center;
+}
+
+.bottom{
+    background-color: white;
+    padding: 20px;
+    border-radius: -30px -30px 0 0;
+}
+
+.heading{
+    font-weight: 700;
+}
+
+.circle{
+    background-image: linear-gradient( hsl(256, 72%, 46%), hsla(241, 81%, 54%, 0.1));
+    border-radius: 50%;
+    width: 120px ;
+    height: 120px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+.circle h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.top h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin: 5px 0;
+
+}
+
+/* summary Section */
+.summary{
+    font-weight: 700; 
+    font-size: 18px;
+    margin: 10px;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+
+img{
+    width: 15px;
+    margin-right: 5px;
+    
+
+}
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual{
+    background-color:hsla(234, 85%, 45%, 0.1);
+}
+
+button{
+    margin: 15px 0;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    background-color: hsla(224, 30%, 27%, 0.9);
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px; 
+    text-align: center;
+
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
